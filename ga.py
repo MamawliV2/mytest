@@ -10,7 +10,7 @@ def create_telegram_app(phone_number):
     session = requests.Session()
     
     # مرحله ورود به سایت تلگرام
-    login_url = 'https://my.telegram.org/auth/login'
+    login_url = 'https://my.telegram.org/auth'
     login_data = {
         'phone': phone_number
     }
